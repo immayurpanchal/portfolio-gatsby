@@ -1,5 +1,15 @@
 import React from "react"
+import Header from "../components/Header"
+import "./index.scss"
+import Main from "../components/Main"
+import Footer from "../components/Footer"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  )
 }

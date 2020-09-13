@@ -1,0 +1,51 @@
+@import "../../styles/dark.scss";
+
+.clearfix {
+  clear: both;
+}
+.main {
+  margin-top: 68px;
+  width: 100%;
+  min-height: 270px;
+
+  article {
+    .short-info {
+      max-width: 780px;
+      float: left;
+      h2 {
+        font-size: 26px;
+        line-height: 42px;
+        margin: 0;
+        max-width: 646px;
+        letter-spacing: 0.4px;
+      }
+
+      p {
+        margin: 2em 0 0 0;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.45px;
+        max-width: 780px;
+      }
+    }
+
+    .profile-pic-container {
+      width: 270px;
+      height: 270px;
+      float: right;
+      overflow: hidden;
+      object-fit: cover;
+      border-radius: 50%;
+      img {
+        float: right;
+        width: auto;
+        height: 100%;
+      }
+    }
+
+    .section-heading {
+      display: inline-block;
+      border-bottom: 2px solid #dadada;
+    }
+  }
+}

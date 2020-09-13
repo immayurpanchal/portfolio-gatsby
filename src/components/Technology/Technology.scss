@@ -1,0 +1,16 @@
+.technology {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px 75px 0;
+
+  img {
+    width: auto;
+    height: 115px;
+  }
+
+  span {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

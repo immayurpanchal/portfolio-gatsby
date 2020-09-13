@@ -1,0 +1,17 @@
+@import "../styles/variables.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: $primary-font;
+  color: $primary-color;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 82px 150px;
+}
+
+.section-heading {
+  font-size: 28px;
+  font-weight: 600;
+}

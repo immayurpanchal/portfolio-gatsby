@@ -1,0 +1,33 @@
+.work {
+  height: 342px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+
+  .work-info-wrapper {
+    align-self: center;
+    .work-title {
+      font-size: 28px;
+      line-height: 42px;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+    }
+    .work-description {
+      margin-top: 14px;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0.36px;
+    }
+  }
+  .work-image-container {
+    height: 342px;
+    .work-image {
+      width: auto;
+      height: 342px;
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+}
