@@ -36,7 +36,7 @@ const Footer = () => {
         <span className="copyright">© Copyright 2020 | Mayur Panchal</span>
         <div className="social-icons">
           {socialIcons.map(icon => (
-            <a href={icon.profileUrl}>
+            <a href={icon.profileUrl} target="_blank">
               <div className="icon">
                 <img src={icon.imageUrl} alt={icon.alt} />
               </div>
