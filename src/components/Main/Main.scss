@@ -1,4 +1,4 @@
-@import "../../styles/dark.scss";
+@import "../../styles/variables.scss";
 
 .clearfix {
   clear: both;
@@ -45,7 +45,7 @@
 
     .section-heading {
       display: inline-block;
-      border-bottom: 2px solid #dadada;
+      border-bottom: 2px solid $underline-color;
     }
   }
 }

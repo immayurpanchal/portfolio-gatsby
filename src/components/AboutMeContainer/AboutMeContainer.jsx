@@ -6,7 +6,7 @@ const AboutMeContainer = ({ aboutMe }) => {
   return (
     <div className="about-me-container" id="about">
       {aboutMe.map(({ title, details }) => (
-        <AboutMe title={title} details={details} />
+        <AboutMe title={title} details={details} key={title} />
       ))}
     </div>
   )

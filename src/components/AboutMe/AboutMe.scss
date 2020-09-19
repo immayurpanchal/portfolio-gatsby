@@ -10,11 +10,16 @@
     display: flex;
     flex-direction: column;
     line-height: 30px;
+    margin-bottom: 30px;
     .about-title {
       font-weight: bold;
     }
     .about-description {
       font-weight: normal;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }

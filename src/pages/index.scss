@@ -1,14 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap");
 @import "../styles/variables.scss";
 
 * {
   box-sizing: border-box;
   font-family: $primary-font;
-  color: $primary-color;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 82px 150px;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+
+  a {
+    color: var(--text-color);
+    &:active,
+    &:visited {
+      color: var(--text-color);
+    }
+  }
 }
 
 .section-heading {

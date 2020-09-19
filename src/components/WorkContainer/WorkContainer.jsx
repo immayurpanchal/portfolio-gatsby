@@ -9,7 +9,7 @@ const WorkContainer = props => {
         WORK
       </div>
       {workList.map((work, index) => (
-        <Work work={work} isOdd={index % 2 === 1} />
+        <Work work={work} isOdd={index % 2 === 1} key={index} />
       ))}
     </div>
   )

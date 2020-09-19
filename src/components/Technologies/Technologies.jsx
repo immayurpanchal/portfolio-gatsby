@@ -8,7 +8,7 @@ const Technologies = ({ technologies }) => {
       <div className="section-heading">TECHNOLOGIES</div>
       <div className="technology-wrapper">
         {technologies.map(({ title, imageUrl }) => (
-          <Technology title={title} imageUrl={imageUrl} />
+          <Technology title={title} imageUrl={imageUrl} key={title} />
         ))}
       </div>
     </div>

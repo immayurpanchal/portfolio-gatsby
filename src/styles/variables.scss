@@ -1,4 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap");
-
 $primary-font: "Maven Pro";
-$primary-color: #4a4a4a;
+$underline-color: #dadada;
+
+$light-background: white;
+$light-text: #4a4a4a;
+$dark-background: #4a4a4a;
+$dark-text: white;
+
+$secondary-color: $light-background;
+$primary-color: $light-text;
+
+html {
+  &.dark {
+    --bg-color: #{$dark-background};
+    --text-color: #{$dark-text};
+    $primary-color: #{$dark-text};
+    $secondary-color: #{$dark-background};
+  }
+
+  &.light {
+    --bg-color: #{$light-background};
+    --text-color: #{$light-text};
+    $primary-color: #{$light-text};
+    $secondary-color: #{$light-background};
+  }
+}

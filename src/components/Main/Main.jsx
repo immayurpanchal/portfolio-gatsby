@@ -223,7 +223,7 @@ const Main = () => {
           <img src={profilePic} alt="profile-pic" />
         </div>
       </article>
-      <article className="clearfix">
+      <article className="clearfix" style={{ paddingTop: "100px" }}>
         <WorkContainer workList={workList} />
         <Technologies technologies={technologies} />
         <AboutMeContainer aboutMe={aboutMe} />

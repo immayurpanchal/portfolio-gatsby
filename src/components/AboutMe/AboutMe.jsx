@@ -7,10 +7,9 @@ const AboutMe = ({ title, details }) => {
       <div className="section-heading">{title.toUpperCase()}</div>
       {details &&
         details.map(info => (
-          <div className="about-detail-wrapper">
+          <div className="about-detail-wrapper" key={info.title}>
             <div className="about-title">{info.title}</div>
             <div className="about-description">{info.description}</div>
-            <br />
           </div>
         ))}
     </div>

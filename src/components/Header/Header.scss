@@ -1,9 +1,7 @@
 @import "../../styles/variables.scss";
-@import "../../styles/light.scss";
 
 .header {
   font-family: $primary-font;
-  color: $text-color;
 
   .title {
     font-weight: bold;
@@ -19,9 +17,7 @@
 
     a {
       margin-right: 32px;
-      color: $text-color;
       text-decoration: none;
-
       &:last-child {
         margin-right: 0;
       }
@@ -30,6 +26,7 @@
     .theme {
       width: 20px;
       height: auto;
+      cursor: pointer;
     }
   }
 }
