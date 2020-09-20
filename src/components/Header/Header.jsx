@@ -32,6 +32,7 @@ const Header = () => {
           alt="theme"
           onClick={toggleTheme}
           className="theme"
+          role="button"
         />
       </nav>
     </header>
