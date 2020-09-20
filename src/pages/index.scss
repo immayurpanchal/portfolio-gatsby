@@ -11,7 +11,7 @@ body {
   margin: 82px 150px;
   color: var(--text-color);
   background-color: var(--bg-color);
-
+  transition: all ease 0.2s;
   a {
     color: var(--text-color);
     &:active,

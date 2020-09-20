@@ -27,7 +27,7 @@
         width: 40px;
         height: 40px;
         border: 1px solid;
-        border-color: var($primary-color);
+        border-color: var(--text-color);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -43,6 +43,14 @@
           margin-right: 0;
         }
       }
+    }
+  }
+}
+
+.dark {
+  .social-icons {
+    .icon {
+      background-color: var(--text-color);
     }
   }
 }

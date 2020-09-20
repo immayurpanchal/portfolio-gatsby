@@ -3,24 +3,17 @@ $underline-color: #dadada;
 
 $light-background: white;
 $light-text: #4a4a4a;
-$dark-background: #4a4a4a;
+$dark-background: #262626;
 $dark-text: white;
 
-$secondary-color: $light-background;
-$primary-color: $light-text;
-
-html {
+body {
   &.dark {
     --bg-color: #{$dark-background};
     --text-color: #{$dark-text};
-    $primary-color: #{$dark-text};
-    $secondary-color: #{$dark-background};
   }
 
   &.light {
     --bg-color: #{$light-background};
     --text-color: #{$light-text};
-    $primary-color: #{$light-text};
-    $secondary-color: #{$light-background};
   }
 }

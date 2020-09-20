@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
-import sun from "./img/sun.svg"
-import moon from "./img/moon.svg"
+import sun from "../../data/img/sun.svg"
+import moon from "../../data/img/moon.svg"
 import "./Header.scss"
 
 const Header = () => {
@@ -12,11 +12,11 @@ const Header = () => {
 
   useEffect(() => {
     if (isDark) {
-      document.querySelector("html").classList.remove("light")
-      document.querySelector("html").classList.add("dark")
+      document.querySelector("body").classList.remove("light")
+      document.querySelector("body").classList.add("dark")
     } else {
-      document.querySelector("html").classList.remove("dark")
-      document.querySelector("html").classList.add("light")
+      document.querySelector("body").classList.remove("dark")
+      document.querySelector("body").classList.add("light")
     }
   }, [isDark])
 
