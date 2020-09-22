@@ -9,7 +9,7 @@ const Work = ({ work, isOdd }) => {
         <div className="work-title">{title}</div>
         <div className="work-description">{description}</div>
       </div>
-      <a href={projectUrl} target="_blank">
+      <a href={projectUrl} target="_blank" rel="noopener">
         <div className="work-image-container">
           <img className="work-image" src={imgUrl} alt="test" />
         </div>

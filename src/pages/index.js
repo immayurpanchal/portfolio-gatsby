@@ -11,6 +11,10 @@ export default function Home() {
       <Helmet>
         <title>Mayur Panchal</title>
         <html lang="en"></html>
+        <meta
+          name="description"
+          content="Mayur Panchal's portfolio. Checkout my social media links and let's get in touch."
+        ></meta>
       </Helmet>
       <Header />
       <Main />
