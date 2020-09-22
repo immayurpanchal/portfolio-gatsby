@@ -30,5 +30,13 @@ module.exports = {
         extensions: ["css", "html", "js", "svg"],
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Maven Pro"],
+        },
+      },
+    },
   ],
 }
