@@ -49,3 +49,27 @@
     }
   }
 }
+
+@media screen and (max-width: 812px) {
+  .main {
+    margin-top: 0;
+    article {
+      .short-info {
+        margin-top: 42px;
+        h2 {
+          font-size: 22px;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+
+      .profile-pic-container {
+        display: none;
+      }
+    }
+    .clearfix {
+      padding-top: 56px !important;
+    }
+  }
+}

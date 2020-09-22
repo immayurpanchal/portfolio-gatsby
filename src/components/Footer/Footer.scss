@@ -54,3 +54,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 812px) {
+  .footer {
+    hr {
+      margin-top: 36px;
+      margin-bottom: 20px;
+    }
+    .footer-detail {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+
+      .copyright {
+        margin-top: 26px;
+      }
+    }
+  }
+}

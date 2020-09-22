@@ -31,3 +31,34 @@
     }
   }
 }
+
+@media only screen and (max-width: 812px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+    &:nth-child(odd) {
+      flex-direction: column !important;
+    }
+
+    .work-info-wrapper {
+      text-align: center;
+      .work-title {
+        font-size: 22px;
+      }
+
+      .work-description {
+        font-size: 16px;
+      }
+    }
+
+    .work-image-container {
+      height: auto;
+      .work-image {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
