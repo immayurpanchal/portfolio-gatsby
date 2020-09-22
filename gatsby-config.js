@@ -24,5 +24,11 @@ module.exports = {
         ignore: [`**/\.*`, `*/\.js$`], // ignore files starting with a dot
       },
     },
+    {
+      resolve: "gatsby-plugin-zopfli",
+      options: {
+        extensions: ["css", "html", "js", "svg"],
+      },
+    },
   ],
 }

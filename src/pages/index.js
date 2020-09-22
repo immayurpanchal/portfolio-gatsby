@@ -10,6 +10,7 @@ export default function Home() {
     <div>
       <Helmet>
         <title>Mayur Panchal</title>
+        <html lang="en"></html>
       </Helmet>
       <Header />
       <Main />
