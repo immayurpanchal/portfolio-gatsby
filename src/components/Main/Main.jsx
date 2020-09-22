@@ -14,12 +14,14 @@ const workList = [
       "Front-End development with Google Sign In support and GraphQL",
     imgUrl:
       "https://ik.imagekit.io/immayurpanchal/Portfolio/Screenshot_2020-09-13_at_10.52.30_AM_AAmYm1_ML.png",
+    projectUrl: "https://recipe-maker.netlify.app/",
   },
   {
     title: "Natours",
     description: "Front-End Development, Back-End Development ",
     imgUrl:
       "https://ik.imagekit.io/immayurpanchal/Portfolio/Screenshot_2020-09-13_at_10.54.58_AM_lBoTqGreh.png",
+    projectUrl: "https://frontend-natours.netlify.app/",
   },
   {
     title: "Viu Browser",
@@ -27,6 +29,7 @@ const workList = [
       "Performance Enhancement, Front-End development using React.js ",
     imgUrl:
       "https://ik.imagekit.io/immayurpanchal/Portfolio/Screenshot_2020-09-13_at_11.24.08_AM_pwBS_QdE6.png",
+    projectUrl: "https://viu.com",
   },
 ]
 
@@ -75,11 +78,6 @@ const technologies = [
     imageUrl:
       "https://ik.imagekit.io/immayurpanchal/Portfolio/docker_iqTdL38ZQFD.svg",
     title: "Docker",
-  },
-  {
-    imageUrl:
-      "https://ik.imagekit.io/immayurpanchal/Portfolio/redux-saga_aLC6PoSQTj.svg",
-    title: "Redux Saga",
   },
   {
     imageUrl:
