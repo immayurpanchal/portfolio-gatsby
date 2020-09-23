@@ -27,13 +27,12 @@ const Header = () => {
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <img
-          src={isDark ? sun : moon}
-          alt="theme"
+        <button
           onClick={toggleTheme}
-          className="theme"
-          role="button"
-        />
+          style={{ background: "none", border: "none" }}
+        >
+          <img src={isDark ? sun : moon} alt="theme" className="theme" />
+        </button>
       </nav>
     </header>
   )

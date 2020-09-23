@@ -15,12 +15,6 @@ export default function Home() {
           name="description"
           content="Mayur Panchal's portfolio. Checkout my social media links and let's get in touch."
         ></meta>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap"
-          rel="preload"
-          as="font"
-          crossorigin
-        ></link>
       </Helmet>
       <Header />
       <Main />

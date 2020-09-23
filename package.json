@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "gatsby": "^2.24.54",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-plugin-zopfli": "^2.0.0",
     "gatsby-source-filesystem": "^2.3.30",
     "node-sass": "^4.14.1",
