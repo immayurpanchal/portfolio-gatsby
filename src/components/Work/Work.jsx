@@ -11,7 +11,7 @@ const Work = ({ work, isOdd }) => {
       </div>
       <a href={projectUrl} target="_blank" rel="noreferrer">
         <div className="work-image-container">
-          <img className="work-image" src={imgUrl} alt="test" />
+          <img loading="lazy" className="work-image" src={imgUrl} alt="test" />
         </div>
       </a>
     </div>

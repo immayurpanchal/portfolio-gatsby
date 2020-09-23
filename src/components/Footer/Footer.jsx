@@ -43,7 +43,7 @@ const Footer = () => {
               key={icon.alt}
             >
               <div className="icon">
-                <img src={icon.imageUrl} alt={icon.alt} />
+                <img loading="lazy" src={icon.imageUrl} alt={icon.alt} />
               </div>
             </a>
           ))}
