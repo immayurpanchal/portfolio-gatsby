@@ -1,15 +1,19 @@
 .technology {
   display: flex;
   flex-direction: column;
-  padding: 15px 30px 75px 0;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
 
   img {
     width: auto;
     height: 115px;
+    display: inline-block;
+    margin: auto;
   }
 
   span {
-    width: 100%;
+    display: block;
     text-align: center;
     margin-top: 20px;
   }
