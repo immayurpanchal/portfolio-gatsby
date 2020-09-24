@@ -24,10 +24,16 @@
       }
     }
 
-    .theme {
-      width: 20px;
-      height: auto;
-      cursor: pointer;
+    button {
+      &:focus {
+        outline: none;
+      }
+
+      .theme {
+        width: 20px;
+        height: auto;
+        cursor: pointer;
+      }
     }
   }
 }
