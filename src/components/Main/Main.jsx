@@ -5,7 +5,7 @@ import WorkContainer from "../WorkContainer/WorkContainer"
 import "./Main.scss"
 
 const profilePic =
-  "https://ik.imagekit.io/immayurpanchal/Portfolio/aamir-khan_bZ9jJZtvy.jpg"
+  "https://ik.imagekit.io/immayurpanchal/Portfolio/template_share_sayhihalf_avatoon_background_default_viIklWeA9.png"
 
 const Main = () => {
   return (
