@@ -9,5 +9,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  .technology-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
 }
