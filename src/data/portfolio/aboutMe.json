@@ -1,0 +1,64 @@
+{
+  "aboutMe": [
+    {
+      "heading": "main skills",
+      "details": [
+        {
+          "title": "Web and user interface design",
+          "description": "Websites, web experiences, ..."
+        },
+        {
+          "title": "Front-End Development",
+          "description": "Responsive websites, Performance enhancement, ..."
+        },
+        {
+          "title": "Back-End Development",
+          "description": "Back-End Development"
+        }
+      ]
+    },
+    {
+      "heading": "education",
+      "details": [
+        {
+          "title": "Dhirubhai Ambani Institute of Information and Communication Technology",
+          "description": "M. Sc. (IT)"
+        },
+        {
+          "title": "INSB BCA College",
+          "description": "BCA"
+        }
+      ]
+    },
+    {
+      "heading": "values",
+      "details": [
+        {
+          "title": "Good design is good business",
+          "description": "It’s not only about beauty, it has to work."
+        },
+        {
+          "title": "Never not learning",
+          "description": "There’s always something new to learn."
+        },
+        {
+          "title": "Get to the root of the problem",
+          "description": "To come up with the best solution."
+        },
+        {
+          "title": "Keep it simple",
+          "description": "Why make it complicated?"
+        }
+      ]
+    },
+    {
+      "heading": "use tool",
+      "details": [
+        {
+          "title": "",
+          "description": "VSCode, Notion, Figma, Sketch, iTerm 2, Slack, Jira, Trello, GSuite, Zeplin"
+        }
+      ]
+    }
+  ]
+}

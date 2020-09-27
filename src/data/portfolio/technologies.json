@@ -1,0 +1,76 @@
+{
+  "technologies": [
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/html5_WJr9bD_iv.svg",
+      "title": "HTML5"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/css-3_RdJJBQ6rQV6.svg",
+      "title": "CSS3"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/react-2_UjTufr1hg5T.svg",
+      "title": "React"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/redux_3nE_4qozrJv.svg",
+      "title": "Redux"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/sass-1_NtLGxy_ywxd.svg",
+      "title": "SASS"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/gatsby_3AvWwkJAxR.svg",
+      "title": "Gatsby"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/bootstrap-icon_ufk2ZEiVzR.svg",
+      "title": "Bootstrap"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/graphql_hixDO1mIjx.svg",
+      "title": "GraphQL"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/docker_iqTdL38ZQFD.svg",
+      "title": "Docker"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/python-5_apoo-Lw7b0.svg",
+      "title": "Python"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/apollo-graphql-compact_xCceYyYnm-.svg",
+      "title": "Apollo GraphQL"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/jenkins-1_QKU3cuWJHd.svg",
+      "title": "Jenkins"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/javascript_fjn8ELUtKj.svg",
+      "title": "Javascript"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/kubernets_8C22b76pt_.svg",
+      "title": "Kubernetes"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/git-icon_1ulIkDDswI.svg",
+      "title": "Git"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/next-js_a3uYFzALGn.svg",
+      "title": "Next.js"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/mongodb-icon_pmP10krzHN.svg",
+      "title": "MongoDB"
+    },
+    {
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/heroku_1SD9t4i-_N.svg",
+      "title": "Heroku"
+    }
+  ]
+}
