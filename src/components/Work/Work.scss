@@ -32,7 +32,7 @@
   }
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 1024px) {
   .work {
     display: flex;
     flex-direction: column;
@@ -55,9 +55,12 @@
 
     .work-image-container {
       height: auto;
+      display: flex;
+      justify-content: center;
       .work-image {
         width: 100%;
         height: auto;
+        max-width: 500px;
       }
     }
   }

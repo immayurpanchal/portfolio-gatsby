@@ -7,10 +7,6 @@ import "./Main.scss"
 const profilePic =
   "https://ik.imagekit.io/immayurpanchal/Portfolio/aamir-khan_bZ9jJZtvy.jpg"
 
-const workList = []
-
-const technologies = []
-
 const Main = () => {
   return (
     <main className="main">
