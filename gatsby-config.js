@@ -9,17 +9,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       {
-    //         family: `Maven Pro`,
-    //         variants: [`400`, `500`, `600`],
-    //       },
-    //     ],
-    //   },
-    // },
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,9 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
-        ignore: [`**/\.*`, `*/\.js$`], // ignore files starting with a dot
+        name: `aboutMe`,
+        path: `${__dirname}/src/data/portfolio`,
       },
     },
     {
