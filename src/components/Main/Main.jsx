@@ -42,7 +42,7 @@ const Main = () => {
         </div>
       </article>
       <article className="clearfix" style={{ paddingTop: "100px" }}>
-        <WorkContainer workList={workList} />
+        <WorkContainer />
         <Technologies />
         <AboutMeContainer />
       </article>
