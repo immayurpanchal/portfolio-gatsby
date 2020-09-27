@@ -1,13 +1,31 @@
 import React from "react"
 import AboutMe from "../AboutMe"
 import "./AboutMeContainer.scss"
+import { useStaticQuery, graphql } from "gatsby"
 
-const AboutMeContainer = ({ aboutMe }) => {
+const AboutMeContainer = () => {
+  const {
+    portfolioJson: { aboutMe },
+  } = useStaticQuery(graphql`
+    {
+      portfolioJson {
+        aboutMe {
+          heading
+          details {
+            title
+            description
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <div className="about-me-container" id="about">
-      {aboutMe.map(({ title, details }) => (
-        <AboutMe title={title} details={details} key={title} />
-      ))}
+      {aboutMe &&
+        aboutMe.map(({ heading, details }) => (
+          <AboutMe heading={heading} details={details} key={heading} />
+        ))}
     </div>
   )
 }
