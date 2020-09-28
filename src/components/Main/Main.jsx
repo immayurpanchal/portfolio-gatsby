@@ -31,7 +31,6 @@ const Main = () => {
   `)
 
   const personal = edges.filter(edge => edge.node.personal)[0].node.personal
-  console.log(personal)
 
   return (
     <main className="main">
