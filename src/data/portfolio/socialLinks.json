@@ -1,3 +1,24 @@
 {
-  "socialLinks": []
+  "socialLinks": [
+    {
+      "profileUrl": "https://twitter.com/immayurpanchal",
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/twitter-seeklogo.com_n76COVB9n6.svg",
+      "alt": "Twitter"
+    },
+    {
+      "profileUrl": "https://facebook.com/immayurpanchal",
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/facebook-2_GorFqYO6yy.svg",
+      "alt": "Facebook"
+    },
+    {
+      "profileUrl": "https://instagram.com/immayurpanchal",
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/instagram-2016_Yx6Zx-gv_s.svg",
+      "alt": "Instagram"
+    },
+    {
+      "profileUrl": "https://github.com/immayurpanchal",
+      "imageUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/github-1_ma2qvGuCN.svg",
+      "alt": "Github"
+    }
+  ]
 }
