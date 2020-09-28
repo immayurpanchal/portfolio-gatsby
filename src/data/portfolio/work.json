@@ -3,19 +3,19 @@
     {
       "title": "Recipe Maker",
       "description": "Front-End development using React.js with One tap Sign In and Google Authentication support",
-      "imgUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/Screenshot_2020-09-13_at_10.52.30_AM_AAmYm1_ML.png",
+      "imgUrl": "https://res.cloudinary.com/dehg0em9i/image/upload/w_600,q_auto,f_auto/v1601294956/Portfolio/Screenshot_2020-09-13_at_10.52.30_AM_c2xm7l.png",
       "projectUrl": "https://recipe-maker.netlify.app/"
     },
     {
       "title": "Natours",
       "description": "MERN stack development with multilanguage support with lazy loading support and also REST API endpoints for tour CRUD operations ",
-      "imgUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/Screenshot_2020-09-13_at_10.54.58_AM_lBoTqGreh.png",
+      "imgUrl": "https://res.cloudinary.com/dehg0em9i/image/upload/w_600,q_auto,f_auto/v1601296031/Portfolio/Screenshot_2020-09-13_at_10.54.58_AM_y4ffdd.png",
       "projectUrl": "https://frontend-natours.netlify.app/"
     },
     {
       "title": "Viu.com Browser",
       "description": "Front-End development using React.js, A/B Testing, Performance Tweak...",
-      "imgUrl": "https://ik.imagekit.io/immayurpanchal/Portfolio/Screenshot_2020-09-13_at_11.24.08_AM_pwBS_QdE6.png",
+      "imgUrl": "https://res.cloudinary.com/dehg0em9i/image/upload/w_600,q_auto,f_auto/v1601294974/Portfolio/Screenshot_2020-09-13_at_11.24.08_AM_aawvay.png",
       "projectUrl": "https://viu.com"
     }
   ]
