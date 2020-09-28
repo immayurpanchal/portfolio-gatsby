@@ -3,11 +3,36 @@ import AboutMeContainer from "../AboutMeContainer"
 import Technologies from "../Technologies"
 import WorkContainer from "../WorkContainer/WorkContainer"
 import "./Main.scss"
-
-const profilePic =
-  "https://ik.imagekit.io/immayurpanchal/Portfolio/template_share_sayhihalf_avatoon_background_default_viIklWeA9.png"
+import { graphql, useStaticQuery } from "gatsby"
 
 const Main = () => {
+  const {
+    allPortfolioJson: { edges },
+  } = useStaticQuery(graphql`
+    {
+      allPortfolioJson {
+        edges {
+          node {
+            id
+            personal {
+              profilePic
+              firstName
+              lastName
+              designation
+              firstJobYear
+              paragraph1
+              paragraph2
+              country
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  const personal = edges.filter(edge => edge.node.personal)[0].node.personal
+  console.log(personal)
+
   return (
     <main className="main">
       <article>
@@ -17,24 +42,25 @@ const Main = () => {
             <span role="img" aria-label="hello">
               ✋
             </span>
-            , I’m Mayur, a Full-stack developer based in India.
+            {`, I’m ${personal.firstName}, a ${personal.designation} based in ${personal.country}.`}
           </h2>
           <p>
-            I have been developing web application for{" "}
+            {personal.paragraph1}
             <b>
               {Number(
-                new Date().getFullYear() - 2019 + new Date().getMonth() / 12
+                new Date().getFullYear() -
+                  parseInt(personal.firstJobYear) +
+                  new Date().getMonth() / 12
               ).toFixed(1)}
             </b>{" "}
-            years. I also love designing.
+            years.
             <br />
             <br />
-            You can see the photos I took on my Instagram profile. Check out my
-            projects on Github profile. I’m much active on Twitter.
+            {personal.paragraph2}
           </p>
         </div>
         <div className="profile-pic-container">
-          <img src={profilePic} alt="profile-pic" />
+          <img src={personal.profilePic} alt="profile-pic" />
         </div>
       </article>
       <article className="clearfix" style={{ paddingTop: "100px" }}>
