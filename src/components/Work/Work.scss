@@ -4,6 +4,18 @@
   justify-content: space-between;
   margin-top: 70px;
 
+  &:nth-child(odd) {
+    .work-info-wrapper {
+      margin-left: 35px;
+    }
+  }
+
+  &:nth-child(even) {
+    .work-info-wrapper {
+      margin-right: 35px;
+    }
+  }
+
   .work-info-wrapper {
     align-self: center;
     .work-title {
