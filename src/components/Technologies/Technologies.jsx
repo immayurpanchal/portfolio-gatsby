@@ -1,7 +1,7 @@
 import React from "react"
 import "./Technologies.scss"
 import Technology from "../Technology"
-import { useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
 const Technologies = () => {
   const {
